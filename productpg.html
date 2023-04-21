@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Uncompressed. SHOP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/a126abb4d0.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="path/to/imagesloaded.pkgd.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora');
+
+        .fa:hover {
+            animation: fa-shake 2s infinite linear;
+        }
+
+        body {
+            font-family: 'Lora', "Times New Roman";
+        }
+
+        .cover-container {
+            background-color: #99ccff;
+            border: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+
+        }
+
+        .carousel {
+            margin: auto;
+        }
+
+        .carousel-item img {
+            object-fit: cover;
+            max-height: 500px; /* set a fixed height for the carousel */
+            max-width: 50%
+        }
+
+        .carousel-caption {
+            color: white;
+            width: 100%;
+            left: 50%;
+            bottom: 35%;
+            padding: 20px;
+            max-height: 50%;
+            max-width: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 100px; /* set a fixed height for the caption */
+            overflow: hidden; /* hide any overflow from the caption */
+        }
+
+        .offcanvas {
+            background-color: rgba(0, 0, 0, 0%);
+
+        }
+
+        body {
+            -ms-overflow-style: none; /* for Internet Explorer, Edge */
+            scrollbar-width: none; /* for Firefox */
+            overflow-y: scroll;
+        }
+
+        body::-webkit-scrollbar {
+            display: none; /* for Chrome, Safari, and Opera */
+        }
+    </style>
+</head>
+<body>
+<div class="cover-container d-flex w-100 h-100 bg-dark p-3 mx-auto flex-column card sticky-top">
+    <header class="mb-auto">
+        <div class="container px-3 ">
+            <div class="d-flex flex-column flex-md-row align-items-center pb-3 ">
+                <a href="index2.html" class="d-flex align-items-center link-body-emphasis text-decoration-none text-white">
+                    <i class="fa fa-record-vinyl fa-2xl"> </i>
+                    <title>Final Proj. Website</title>
+                    <span style="margin-left: 10px;" class="fs-4">Uncompressed.</span>
+                </a>
+                <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                    <ul class="nav masthead-nav">
+                        <a class="me-3 py-2 link-body-emphasis text-decoration-none text-white" href="index2.html"><i
+                                class="fa fa-house fa-lg"> </i></a>
+                        <a class="me-3 py-2 link-body-emphasis text-decoration-none text-white" href="productpg.html">
+                            <i class="fa fa-bag-shopping fa-lg">
+                                <span class="badge badge-secondary cart-count ">0</span>
+                            </i>
+                        </a>
+                        <a class="me-3 py-2 text-decoration-none text-white" href="#" data-bs-toggle="offcanvas"
+                           data-bs-target=#offcanvasBottom><i
+                                class="fa fa-phone fa-lg"> </i></a>
+                    </ul>
+                    <div class="offcanvas offcanvas-end off text-white" tabindex="-1" id="offcanvasBottom"
+                         aria-labelledby="offcanvasBottomLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Contact Us</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body ">
+                            <form class="needs-validation was-validated" novalidate="">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="firstName">First name</label>
+                                        <input type="text" class="form-control" id="firstName" placeholder="" value=""
+                                               required="">
+                                        <div class="invalid-feedback">
+                                            Valid first name is required.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="lastName">Last name</label>
+                                        <input type="text" class="form-control" id="lastName" placeholder="" value=""
+                                               required="">
+                                        <div class="invalid-feedback">
+                                            Valid last name is required.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email">Email <span class="text-muted">(Required)</span></label>
+                                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                                    <div class="invalid-feedback">
+                                        Please enter a valid email address for shipping updates.
+                                    </div>
+                                </div>
+                                <p>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Comments</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                </p>
+                            </form>
+
+                            <form action="/www.google.com" method="post">
+                                <p>
+                                    <button class="btn mx-auto btn-light" type="submit">Submit
+                                    </button>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="p-2 p-md-3"><a class="link py-2 link-body-emphasis text-white text-decoration-none"
+                                   href="index2.html">Uncompressed.
+            HOME</a><span class="text-white"> /</span><span class="text-white"> Shop</span>
+        </div>
+        <h3 class="pb-4  mt-3 mb-3  fst-italic border-bottom text-white">Music covered by the New York Times</h3>
+        <div id="carouselPrimary" class="carousel slide text-white " data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <!--JSON data is populated HERE-->
+            </div>
+        </div>
+        <h3 class="pb-4 mt-3 mb-3 fst-italic border-bottom text-white">Products</h3>
+        <!--Bootstrap MASONRY CARDS PRODUCTS-->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" data-masonry='{"percentPosition":true}'>
+            <div class="col">
+                <div class="card shadow-sm border-0">
+                    <img src="productQ3000.jpg">
+                    <div class="card-body bg-dark text-white">
+                        <p class="card-text">QAcoustic's 3000i speakers provide a tonal balance and maintain composure
+                            at high volumes. Offered in multiple colors, the 3000i uses a 22mm decoupled High Frequency
+                            Driver, low profile binding posts in the sockets to accept banana plugs, and P2P bracing for
+                            a quiet enclosure. </p>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <large class="bg-dark text-white"><strong>3010i Compact Speakers | $329.00</strong></large>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a class=""
+                                   href="https://www.qacoustics.com/collections/3000i-series/products/3010i-compact-bookshelf-speaker-pair?variant=39311279095923">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                </a>
+                                <button type="button" class="btn btn-sm btn-outline-secondary add-to-cart">Add to
+                                    Cart
+                                </button>
+                            </div>
+                            <small class="text-success">In Stock</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm border-0">
+                    <img src="productsony.jpg">
+                    <div class="card-body bg-dark text-white">
+                        <p class="card-text">"Sony has a brand new flagship set of noise-canceling headphones: the
+                            WH-1000XM5. And as much as we’ve ragged on Sony’s terrible product names before, I think
+                            that at least with the 1000X series, people get it: these have always been among the very
+                            best noise-canceling headphones you can buy." - Chris Welch, The Verge</p>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <large class="bg-dark text-white"><strong>WH-1000XM5 | $399.99</strong></large>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a class=""
+                                   href="https://www.theverge.com/23067645/sony-wh-1000xm5-noise-canceling-headphones-review">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                </a>
+                                <button type="button" class="btn btn-sm btn-outline-secondary add-to-cart">Add to
+                                    Cart
+                                </button>
+                            </div>
+                            <small class="text-success">In Stock</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm border-0">
+                    <img src="productMagni.jpg">
+                    <div class="card-body bg-dark text-white">
+                        <p class="card-text">The Schiit Magni does everything a headphone amp and preamp needs to do.
+                            Manufactured in the USA and assembled in Texas, the Magni+ is built with a high-spec, sorted
+                            potentiometer, thin-film resistors, and silicon capacitors, all wrapped in a steel chassis.
+                            New protections systems ensure your headphones a long life.</p>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <large class="bg-dark text-white"><strong>Schiit Magni+ | $109.00</strong></large>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a class="" href="https://www.schiit.com/products/magni-plus">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary ">View</button>
+                                </a>
+                                <button type="button" class="btn btn-sm btn-outline-secondary add-to-cart">Add to
+                                    Cart
+                                </button>
+                            </div>
+                            <small class="text-danger">Out of Stock</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm border-0">
+                    <img src="productSenn.jpg">
+                    <div class="card-body bg-dark text-white">
+                        <p class="card-text">"With an audio range from 8 Hz to more than 100 kHz, and the lowest
+                            distortion ever measured in a sound reproduction system: 0.01% at 1 kHz, 100 dB SPL."-
+                            Sennheiser.</p>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <large class="bg-dark text-white"><strong>Sennheiser HE1 | $55,000.00</strong></large>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a class="" href="https://www.sennheiser-hearing.com/en-US/p/sennheiser-he-1/">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary ">View</button>
+                                </a>
+                                <button type="button" class="btn btn-sm btn-outline-secondary add-to-cart">Add to
+                                    Cart
+                                </button>
+                            </div>
+                            <small class="text-warning">Limited Stock!</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body bg-dark text-white ">
+                        <h5 class="card-title text-center text-decoration-underline mt-3 mb-3">Our Promise</h5>
+                        <p class="card-text">From speakers and headphones to amplifiers and DACs, we have everything you
+                            need to elevate your music
+                            to
+                            new heights. Our products are tested and reviewed using the latest technology and materials
+                            to ensure
+                            maximum performance, durability, and quality. Every device is covered by our warranty and
+                            guaranteed for
+                            at least 3 years.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm border-0">
+                    <img src="productGrado.jpg">
+                    <div class="card-body bg-dark text-white">
+                        <p class="card-text">Handmade in Brooklyn, the GS1000x is made with a mix of mahogany and ipê
+                            wood to complement any sound. A 50mm X Series Driver, 12-conductor copper cable, and large
+                            housing makes up these timeless headphones.</p>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <large class="bg-dark text-white"><strong>Grado GS1000X | $1,1950.00</strong></large>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a class="" href="https://gradolabs.com/headphones/statement-series/item/135-gs1000x">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary ">View</button>
+                                </a>
+                                <button type="button" class="btn btn-sm btn-outline-secondary add-to-cart">Add to
+                                    Cart
+                                </button>
+                            </div>
+                            <small class="text-warning">Limited Stock!</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm border-0">
+                    <img src="productTechnica.jpg">
+                    <div class="card-body bg-dark text-white">
+                        <p class="card-text">The ATH-E70's ergonomic design includes a detachable cable with A2DC
+                            connectors, making them easy to customize and maintain. With a frequency response of 20 Hz
+                            to 19 kHz and an impedance of 39 ohms, the ATH-E70 headphones provide a wide dynamic range
+                            and a balanced, natural sound signature that is ideal for both recording and mixing
+                            applications. The ATH-E70's lightweight, durable aluminum housing ensures that these
+                            headphones are built to last, and the included carrying case provides protection when
+                            they're not in use. </p>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <large class="bg-dark text-white"><strong>Audio-Technica ATH-E70 | $399.00</strong></large>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a class="" href="https://www.audio-technica.com/en-us/ath-e70">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary ">View</button>
+                                </a>
+                                <button type="button" class="btn btn-sm btn-outline-secondary add-to-cart">Add to
+                                    Cart
+                                </button>
+                            </div>
+                            <small class="text-success">In Stock</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm border-0">
+                    <img src="productKlipsch.jpg">
+                    <div class="card-body bg-dark text-white">
+                        <p class="card-text">Handcrafted in the USA, this high-performance speaker boasts exceptional
+                            clarity, detail, and accuracy, delivering a listening experience that is second to none.
+                            At the heart of the La Scala speaker is a 15-inch woofer, paired with a compression driver
+                            and a high-frequency horn, which together produce a dynamic range that is both powerful and
+                            nuanced. The La Scala's cabinet is constructed from premium birch plywood, which is
+                            carefully
+                            finished to ensure the highest quality acoustics. </p>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <large class="bg-dark text-white"><strong>Klipsch La Scala | $6,599.00</strong></large>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a class="" href="https://www.klipsch.com/products/la-scala-al-5">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary ">View</button>
+                                </a>
+                                <button type="button" class="btn btn-sm btn-outline-secondary add-to-cart">Add to
+                                    Cart
+                                </button>
+                            </div>
+                            <small class="text-warning">Limited Stock!</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-white">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top text-white">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1 ">
+                        <i class="fa fa-record-vinyl fa-2xl text-white"> </i>
+                    </a>
+                    <span class="mb-3 mb-md-0 text-white">© 2023 Final Project for
+        IST256.001, by Eric Nguyen</span>
+
+
+                </div>
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-white" data-toggle="popover"
+                                        data-bs-content="All content, materials, and images used in this project have been appropriately cited, credited, or licensed for use. Where possible, original sources have been consulted and credited. Any unattributed or improperly credited content was used in good faith and falls under fair use guidelines for educational purposes. The project creator does not claim ownership of any copyrighted material used in this project and will promptly remove any content upon request from the rightful owner. The project creator cannot be held responsible for any infringement of copyright or intellectual property rights resulting from the use of any content in this project. It is the responsibility of the user to ensure that any use of copyrighted material complies with applicable laws and regulations."><i
+                            class="fa fa-info fa-2xl"></i></a>
+                    </li>
+                    <li class="ms-3"><a class="text-white" href="#"><i class="fa-brands fa-twitter fa-2xl "></i></a>
+                    </li>
+                    <li class="ms-3"><a class="text-white" href="#"><i class="fa-brands fa-instagram fa-2xl "></i></a>
+                    </li>
+                    <li class="ms-3"><a class="text-white" href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </main>
+</div>
+
+<!--Bootstrap Bundle-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+<!--Jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+    //NYT API AJAX Call and Outputs into Bootstrap Carousel
+    $(document).ready(function () {
+        var cart = [];
+        var apiKey = 'll1OE1eznTb3jnpSTv1URjVQndXrjlOV'; // replace with your actual API key
+        var apiUrl = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?q=music&api-key=' + apiKey;
+
+        // API JSON CALL
+        $.ajax({
+            url: apiUrl,
+            method: 'GET',
+            success: function (data) {
+                var results = data.response.docs;
+                var output = '';
+                for (var i = 0; i < results.length; i++) {
+                    output += '<div class="carousel-item ' + (i === 0 ? 'active' : '') + '">';
+                    if (results[i].multimedia && results[i].multimedia.length > 0) {
+                        output += '<a href="' + results[i].web_url + '"><img src="https://www.nytimes.com/' + results[i].multimedia[0].url + '" class="d-block w-100 h-100 object-fit-cover"></a>';
+                    } else {
+                        output += '<a href="' + results[i].web_url + '"><img src="placeholder.jpg" class="d-flex w-100 h-100 object-fit-cover"></a>';
+                    }
+                    output += '<div class="carousel-caption">';
+                    output += '<h5>' + results[i].headline.main + '</h5>';
+                    output += '<p>' + results[i].snippet + '</p>';
+                    output += '</div>';
+                    output += '</div>';
+                }
+
+                // Add the search results to the carousel
+                $('#carouselPrimary .carousel-inner').html(output);
+
+            },
+            error: function () {
+                alert('Error fetching data from NYT API');
+            }
+
+        });
+        $('[data-toggle="popover"]').popover();
+        // Add to Cart FEATURE BEGIN
+        $('.add-to-cart').click(function () {
+            // Get the item information
+            var item = {
+                name: 'Example Item',
+                price: 9.99,
+                quantity: 1
+            };
+            // Add the item to the cart
+            cart.push(item);
+
+            // Alert the user that the item has been added to the cart
+            //alert('Item added to cart!');
+            // Update the cart count
+            $('.cart-count').text(cart.length);
+        });
+        setTimeout(function () {
+            var msnry = new Masonry('.grid');
+            msnry.layout();
+        }, 100);
+
+        setTimeout(function () {
+            var msnry = new Masonry('.grid');
+            msnry.layout();
+        }, 300);
+
+        setTimeout(function () {
+            var msnry = new Masonry('.grid');
+            msnry.layout();
+        }, 1000);
+
+        setTimeout(function () {
+            var msnry = new Masonry('.grid');
+            msnry.layout();
+        }, 5000);
+        const myCarouselElement = document.querySelector('#myCarousel')
+
+        const carousel = new bootstrap.Carousel(myCarouselElement, {
+            interval: 2000,
+            touch: false
+        })
+    });
+</script>
+
+</body>
+</html>
