@@ -14,5 +14,6 @@ Website was made from scratch, no template was used, only documentation from Boo
 # Links
 [Website](https://erinyn.github.io/PSU_IST256_Final_Project/) <br>
 [Repo](https://github.com/erinyn/PSU_IST256_Final_Project)
-
+# Disclaimer
+All content, materials, and images used in this project have been appropriately cited, credited, or licensed for use. Where possible, original sources have been consulted and credited. Any unattributed or improperly credited content was used in good faith and falls under fair use guidelines for educational purposes. The project creator does not claim ownership of any copyrighted material used in this project and will promptly remove any content upon request from the rightful owner. The project creator cannot be held responsible for any infringement of copyright or intellectual property rights resulting from the use of any content in this project.
 
