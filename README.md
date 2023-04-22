@@ -14,6 +14,16 @@ Website was made from scratch, no template was used, only documentation from Boo
 # Links
 [Website](https://erinyn.github.io/PSU_IST256_Final_Project/) <br>
 [Repo](https://github.com/erinyn/PSU_IST256_Final_Project)
+# References
+Cover page footage is free/fair use from [pexels.com](https://www.pexels.com/). <br>
+Products along with images and information in product page: <br>
+[Grado](https://gradolabs.com/headphones/statement-series/item/135-gs1000x) <br>
+[Audio-Technica](https://www.audio-technica.com/en-us/ath-e70) <br>
+[Klipsch](https://www.klipsch.com/products/la-scala-al-5) <br>
+[Sennheiser](https://www.sennheiser-hearing.com/en-US/p/sennheiser-he-1/) <br>
+[Schiit](https://www.schiit.com/products/magni-plus) <br>
+[Sony/Verge](https://www.theverge.com/23067645/sony-wh-1000xm5-noise-canceling-headphones-review) <br>
+[Q Acoustics](https://www.qacoustics.com/collections/3000i-series/products/3010i-compact-bookshelf-speaker-pair?variant=39311279095923)
 # Disclaimer
 All content, materials, and images used in this project have been appropriately cited, credited, or licensed for use. Where possible, original sources have been consulted and credited. Any unattributed or improperly credited content was used in good faith and falls under fair use guidelines for educational purposes. The project creator does not claim ownership of any copyrighted material used in this project and will promptly remove any content upon request from the rightful owner. The project creator cannot be held responsible for any infringement of copyright or intellectual property rights resulting from the use of any content in this project.
 
